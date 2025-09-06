@@ -1,5 +1,8 @@
+import {SidebarItem} from "@/types";
+import {BookOpen, Calendar, Code2, Home, TrendingUp, User, Users} from "lucide-react";
+
 export const SIDEBAR_ITEMS: SidebarItem[] = [
-  { label: '홈', path: '', icon: <Home size={20} /> }, // '' = 루트('/')
+  { label: '홈', path: '', icon: <Home size={20} /> },
   {
     label: '지식',
     path: 'knowledge',
