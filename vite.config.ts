@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Newrrow-Soft/',   // 레포명이 루트 경로가 됨
-  build: { outDir: 'docs' } // 빌드 산출물을 /docs에 출력
+  base: '/Newrrow-Soft/',
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'), // ✅ 여기서 @ -> src 로 매핑
+    },
+  },
 })
