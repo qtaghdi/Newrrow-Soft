@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/Newrrow-Soft/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // ✅ 여기서 @ -> src 로 매핑
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })
