@@ -12,7 +12,7 @@ import GroupDetail from '@/pages/group-detail';
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Newrrow-Soft">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
