@@ -344,8 +344,8 @@ export const mockGroups: Group[] = [
     code: 'JKL012',
     leader: mockGroupMembers[0], // 그램드마스터로 변경
     members: [mockGroupMembers[0], ...mockGroupMembers.slice(3, 6)], // 그램드마스터 + 이지은, 박서준, 최유진
-    createdAt: '2024-12-15',
-    updatedAt: '2025-01-05T09:20:00Z',
+    createdAt: '2025-09-03',
+    updatedAt: '2025-01-04T09:20:00Z',
     settings: {
       maxPersonalQuests: 10,
       allowMemberQuests: true,
@@ -365,7 +365,7 @@ export const mockGroups: Group[] = [
     memberCount: 4,
     maxMembers: 12,
     duration: 'short',
-    endDate: '2025-04-30'
+    endDate: '2025-09-07'
   },
   {
     id: '5',
