@@ -612,7 +612,7 @@ const GroupDetail = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">마감일 (선택사항)</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">마감일</label>
                 <input
                   type="date"
                   value={questForm.deadline}
